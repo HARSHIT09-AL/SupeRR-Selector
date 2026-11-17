@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Analyst Workspace | SupeRR Selector</title>
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/data.js"></script>
+<script src="assets/app.js" defer></script>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head><body>
+<header class="navbar">
+<a class="logo" href="index.html">SUPERR <span>SELECTOR</span></a>
+<nav class="navlinks">
+<a href="index.html" data-nav="home">HOME</a>
+<a href="analyst.html" data-nav="analyst">ANALYST</a>
+<a href="head-to-head.html" data-nav="head-to-head">HEAD-TO-HEAD</a>
+<a href="rankings.html" data-nav="rankings">RANKINGS</a>
+<a href="methodology.html" data-nav="methodology">METHODOLOGY</a>
+</nav><div class="live">● SYSTEM ACTIVE</div>
+</header>
+<main class="wrap">
+<div class="kicker">Performance intelligence / Workspace 002</div>
+<h1>THE <em>ANALYST</em><br>ROOM.</h1>
+<p class="lead">Search the qualified player pool. Inspect pressure performance.
+Search qualified players and inspect their pressure performance.</p>
+<section class="section">
+ <div class="section-head"><h2>PLAYER EXPLORER</h2><p>LIVE SEARCH / ALL QUALIFIED PLAYERS</p></div>
+ <div class="cards">
+  <div class="panel"><div class="panel-title">BATTER SEARCH</div>
+   <input class="search" id="bSearch" placeholder="Type a batter name...">
+   <div class="tablebox"><table><thead><tr><th>PLAYER</th><th>SCORE</th><th>RUNS</th><th>BALLS</th></tr></thead><tbody id="bResults"></tbody></table></div>
+   <p class="small-label" id="bCount"></p>
+  </div>
+  <div class="panel"><div class="panel-title">BOWLER SEARCH</div>
+   <input class="search" id="wSearch" placeholder="Type a bowler name...">
+   <div class="tablebox"><table><thead><tr><th>PLAYER</th><th>SCORE</th><th>WICKETS</th><th>ECONOMY</th></tr></thead><tbody id="wResults"></tbody></table></div>
+   <p class="small-label" id="wCount"></p>
+  </div>
+ </div>
+</section>
+
+</main>
+<footer class="footer"><span>SUPERR SELECTOR / CRICKET INTELLIGENCE</span>
+<span>DATA-DRIVEN PLAYER PERFORMANCE</span></footer>
+<script>document.querySelectorAll('[data-nav]').forEach(a=>{
+if(a.dataset.nav==='analyst')a.classList.add('active')});</script>
+</body></html>

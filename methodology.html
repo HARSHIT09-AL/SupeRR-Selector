@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Methodology | SupeRR Selector</title>
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/data.js"></script>
+<script src="assets/app.js" defer></script>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head><body>
+<header class="navbar">
+<a class="logo" href="index.html">SUPERR <span>SELECTOR</span></a>
+<nav class="navlinks">
+<a href="index.html" data-nav="home">HOME</a>
+<a href="analyst.html" data-nav="analyst">ANALYST</a>
+<a href="head-to-head.html" data-nav="head-to-head">HEAD-TO-HEAD</a>
+<a href="rankings.html" data-nav="rankings">RANKINGS</a>
+<a href="methodology.html" data-nav="methodology">METHODOLOGY</a>
+</nav><div class="live">● SYSTEM ACTIVE</div>
+</header>
+<main class="wrap">
+<div class="kicker">Inside the engine / 005</div>
+<h1>THE SCIENCE<br>OF <em>PRESSURE.</em></h1>
+<p class="lead">SupeRR Selector evaluates performance before each delivery
+and compares pressure performance against a non-pressure baseline.</p>
+<div class="section rulegrid">
+ <div class="rule"><div class="index">01 / SECOND INNINGS</div><h2>Chase pressure</h2>
+ <p>Required run rate at least 9; or final 18 legal balls with required rate
+ at least 7; or six or more wickets down with 36 or fewer legal balls remaining.</p></div>
+ <div class="rule"><div class="index">02 / FIRST INNINGS</div><h2>Innings pressure</h2>
+ <p>Four or more wickets down after 70% of available legal balls; or at least
+ 85% of available legal balls completed.</p></div>
+ <div class="rule"><div class="index">03 / BATTING SCORE</div><h2>Batting impact</h2>
+ <p>Pressure runs, balls faced and strike rate are compared with a
+ non-pressure baseline for the same format, innings and phase. A
+ sample-reliability adjustment reduces small-sample influence.</p></div>
+ <div class="rule"><div class="index">04 / BOWLING SCORE</div><h2>Bowling impact</h2>
+ <p>Pressure runs conceded, legal balls and bowler-credited wickets are
+ compared with non-pressure phase baselines, with reliability adjustment.</p></div>
+ <div class="rule"><div class="index">05 / QUALIFICATION</div><h2>Minimum sample</h2>
+ <p>Batters require at least 30 pressure balls. Bowlers require at least
+ 30 pressure legal balls. Super Overs are excluded from regular rankings.</p></div>
+ <div class="rule"><div class="index">06 / INTERPRETATION</div><h2>Reference score: 100</h2>
+ <p>100 is the baseline reference. A score above 100 indicates better
+ performance than the relevant non-pressure benchmark after reliability
+ adjustment. Scores are not probabilities or predictions.</p></div>
+</div>
+</main>
+<footer class="footer"><span>SUPERR SELECTOR / CRICKET INTELLIGENCE</span>
+<span>DATA-DRIVEN PLAYER PERFORMANCE</span></footer>
+<script>document.querySelectorAll('[data-nav]').forEach(a=>{
+if(a.dataset.nav==='methodology')a.classList.add('active')});</script>
+</body></html>
