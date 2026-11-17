@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Player Profile | SupeRR Selector</title>
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/data.js"></script>
+<script src="assets/app.js" defer></script>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head><body>
+<header class="navbar">
+<a class="logo" href="index.html">SUPERR <span>SELECTOR</span></a>
+<nav class="navlinks">
+<a href="index.html" data-nav="home">HOME</a>
+<a href="analyst.html" data-nav="analyst">ANALYST</a>
+<a href="head-to-head.html" data-nav="head-to-head">HEAD-TO-HEAD</a>
+<a href="rankings.html" data-nav="rankings">RANKINGS</a>
+<a href="methodology.html" data-nav="methodology">METHODOLOGY</a>
+</nav><div class="live">● SYSTEM ACTIVE</div>
+</header>
+<main class="wrap">
+<div class="kicker">Player intelligence / 004</div>
+<div id="profileContent"><h1>PLAYER <em>PROFILE.</em></h1>
+<p class="lead">Select a player from the rankings to view their performance profile.</p></div>
+</main>
+<footer class="footer"><span>SUPERR SELECTOR / CRICKET INTELLIGENCE</span>
+<span>DATA-DRIVEN PLAYER PERFORMANCE</span></footer>
+<script>document.querySelectorAll('[data-nav]').forEach(a=>{
+if(a.dataset.nav==='')a.classList.add('active')});</script>
+</body></html>

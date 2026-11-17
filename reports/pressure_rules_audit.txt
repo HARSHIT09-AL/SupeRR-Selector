@@ -1,0 +1,241 @@
+
+======================================================================
+INVESTIGATION: INNINGS 3 AND 4
+======================================================================
+ match_id  innings  deliveries  runs  wickets  comp_id match_date            home_team             away_team                                                            result                           comp_name match_format season
+    34429        3           4     1        2     2542 2024-07-30            Sri Lanka                 India  India Tied with Srilanka (India Won the Super Over by 2 wickets) India in Sri Lanka T20I Series 2024         T20I   2024
+    34429        4           1     4        0     2542 2024-07-30            Sri Lanka                 India  India Tied with Srilanka (India Won the Super Over by 2 wickets) India in Sri Lanka T20I Series 2024         T20I   2024
+    40725        3           6    10        2     2725 2025-04-16       Delhi Capitals      Rajasthan Royals Delhi Capitals Tied with Rajasthan Royals (DC won the Super Over)                            IPL 2025          T20   2025
+    40725        4           4    13        0     2725 2025-04-16       Delhi Capitals      Rajasthan Royals Delhi Capitals Tied with Rajasthan Royals (DC won the Super Over)                            IPL 2025          T20   2025
+    45512        3           6     1        2     3133 2025-09-26                India             Sri Lanka                              India won the Super Over(Match Tied)                       Asia Cup 2025         T20I   2025
+    45512        4           1     3        0     3133 2025-09-26                India             Sri Lanka                              India won the Super Over(Match Tied)                       Asia Cup 2025         T20I   2025
+    48027        3           2     0        2     3289 2025-11-21         Bangladesh A               India A                                   Bangladesh A Won The Super Over          Asia Cup Rising Stars 2025          T20   2025
+    48027        4           2     0        1     3289 2025-11-21         Bangladesh A               India A                                   Bangladesh A Won The Super Over          Asia Cup Rising Stars 2025          T20   2025
+    48029        3           4     1        2     3289 2025-11-23         Bangladesh A            Pakistan A                                     Pakistan A Won the super over          Asia Cup Rising Stars 2025          T20   2025
+    48029        4           4     6        0     3289 2025-11-23         Bangladesh A            Pakistan A                                     Pakistan A Won the super over          Asia Cup Rising Stars 2025          T20   2025
+    50359        3           3     1        2     3298 2026-04-26 Lucknow Super Giants Kolkata Knight Riders              Kolkata Knight Riders Won by Super over (Match Tied)                            IPL 2026          T20   2026
+    50359        4           1     4        0     3298 2026-04-26 Lucknow Super Giants Kolkata Knight Riders              Kolkata Knight Riders Won by Super over (Match Tied)                            IPL 2026          T20   2026
+
+======================================================================
+INVESTIGATION: EXTRAS
+======================================================================
+             deliveries  total_runs  extras1_total  extras2_total
+extras_type                                                      
+Overstep            576         852            576             48
+Penalty               1           0              5              0
+byes                529           0           1000              0
+legbyes            2748           1           3603              0
+other               264         412            264             35
+wide               7714           0           9174              0
+
+Sample extras records:
+ match_id  innings  overid  over_ball_num  runs extras_type  extras1_runs  extras_2_runs  is_wicket dismissal_type
+    13511        1       7              4     0        wide             1              0      False            NaN
+    13511        1       8              1     0        wide             1              0      False            NaN
+    13511        1       8              2     0        wide             1              0      False            NaN
+    13511        2       4              5     0     legbyes             4              0      False            NaN
+    13511        2       7              2     0     legbyes             1              0      False            NaN
+    13512        1      10              1     0        wide             1              0      False            NaN
+    13512        1      10              4     0        wide             1              0      False            NaN
+    13512        1      12              1     0        wide             1              0      False            NaN
+    13512        1      14              3     0        wide             1              0      False            NaN
+    13512        1      16              3     0        wide             1              0      False            NaN
+    13512        1      17              6     0        wide             1              0      False            NaN
+    13512        1      18              6     0        wide             1              0      False            NaN
+    13512        1      19              1     0        wide             1              0      False            NaN
+    13512        2       1              1     0        wide             2              0      False            NaN
+    13512        2       1              2     0     legbyes             1              0      False            NaN
+    13512        2      10              5     0     legbyes             1              0      False            NaN
+    13512        2      11              2     0        byes             2              0      False            NaN
+    13512        2      15              2     0        byes             1              0      False            NaN
+    13512        2      16              2     0        byes             1              0      False            NaN
+    13512        2      16              6     0     legbyes             1              0      False            NaN
+
+======================================================================
+INVESTIGATION: COMPETITION FORMATS
+======================================================================
+match_format  season 
+T20           2022        1
+              2023        1
+              2024        2
+              2025        2
+              2026        1
+T20I          2022       24
+              2022/23     3
+              2023       19
+              2023/24     1
+              2024       31
+              2024/25     1
+              2025       31
+              2026       24
+
+Competition names and IDs:
+ comp_id                                               comp_name match_format  season
+    1358                                                IPL 2022          T20    2022
+    1715                                                IPL 2023          T20    2023
+    2193                                                IPL 2024          T20    2024
+    2670                   Mens T20 Emerging Teams Asia Cup 2024          T20    2024
+    3289                              Asia Cup Rising Stars 2025          T20    2025
+    2725                                                IPL 2025          T20    2025
+    3298                                                IPL 2026          T20    2026
+    1543                 Afghanistan in Ireland T20I Series 2022         T20I    2022
+    1458                Afghanistan in Zimbabwe T20I Series 2022         T20I    2022
+    1551                            Asia Cup T20 Qualifiers 2022         T20I    2022
+    1584                     Australia in India T20I Series 2022         T20I    2022
+    1435                 Australia in Sri Lanka T20I Series 2022         T20I    2022
+    1601     Bangladesh in United Arab Emirates T20I Series 2022         T20I    2022
+    1452              Bangladesh in West Indies T20I Series 2022         T20I    2022
+    1523                 Bangladesh in Zimbabwe T20I Series 2022         T20I    2022
+    1611                   England in Australia T20I Series 2022         T20I    2022
+    1595                    England in Pakistan T20I Series 2022         T20I    2022
+    1331                 England in West Indies T20I Series 2022         T20I    2022
+    1494                       India in England T20I Series 2022         T20I    2022
+    1474                       India in Ireland T20I Series 2022         T20I    2022
+    1499                   India in West Indies T20I Series 2022         T20I    2022
+    1533                             Mens Twenty20 Asia Cup 2022         T20I    2022
+    1512                 New Zealand in Ireland T20I Series 2022         T20I    2022
+    1534             New Zealand in Netherlands T20I Series 2022         T20I    2022
+    1537             New Zealand in West Indies T20I Series 2022         T20I    2022
+    1517                South Africa in England T20I Series 2022         T20I    2022
+    1439                  South Africa in India T20I Series 2022         T20I    2022
+    1531                South Africa vs Ireland T20I Series 2022         T20I    2022
+    1345                 Sri Lanka in Australia T20I Series 2022         T20I    2022
+    1603               West Indies in Australia T20I Series 2022         T20I    2022
+    1335                   West Indies in India T20I Series 2022         T20I    2022
+    1646                India in New Zealand T20I Series 2022/23         T20I 2022/23
+    1608                     New Zealand T20I Tri Series 2022/23         T20I 2022/23
+    1599               South Africa in India T20I Series 2022/23         T20I 2022/23
+    1885              Afghanistan in Bangladesh T20I Series 2023         T20I    2023
+    1792                 Afghanistan v Pakistan T20I Series 2023         T20I    2023
+    2046                     Australia in India T20I Series 2023         T20I    2023
+    2000              Australia in South Africa T20I Series 2023         T20I    2023
+    2058              Bangladesh in New Zealand T20I Series 2023         T20I    2023
+    1742                  England in Bangladesh T20I Series 2023         T20I    2023
+    2048                 England in West Indies T20I Series 2023         T20I    2023
+    1998                       India in Ireland T20I Series 2023         T20I    2023
+    2047                  India in South Africa T20I Series 2023         T20I    2023
+    1913                   India in West Indies T20I Series 2023         T20I    2023
+    1769                  Ireland in Bangladesh T20I Series 2023         T20I    2023
+    1709                    Ireland in Zimbabwe T20I Series 2023         T20I    2023
+    1999                 New Zealand in England T20I Series 2023         T20I    2023
+    1700                   New Zealand in India T20I Series 2023         T20I    2023
+    1799                New Zealand in Pakistan T20I Series 2023         T20I    2023
+    1997    New Zealand in United Arab Emirates T20I Series 2023         T20I    2023
+    1698                     Sri Lanka in India T20I Series 2023         T20I    2023
+    1719               Sri Lanka in New Zealand T20I Series 2023         T20I    2023
+    1718            West Indies in South Africa T20I Series 2023         T20I    2023
+    2188                 Ireland in Zimbabwe T20I Series 2023/24         T20I 2023/24
+    2059                   Afghanistan in India T20I Series 2024         T20I    2024
+    2267               Afghanistan in Sri Lanka T20I Series 2024         T20I    2024
+    2753                Afghanistan in Zimbabwe T20I Series 2024         T20I    2024
+    2269                  Afghanistan v Ireland T20I Series 2024         T20I    2024
+    2548                   Australia in England T20I Series 2024         T20I    2024
+    2062               Australia in New Zealand T20I Series 2024         T20I    2024
+    2561                  Australia in Scotland T20I Series 2024         T20I    2024
+    2512                    Bangladesh in India T20I Series 2024         T20I    2024
+    2457              Bangladesh in West Indies T20I Series 2024         T20I    2024
+    2455                 England in West Indies T20I Series 2024         T20I    2024
+    2718                  India in South Africa T20I Series 2024         T20I    2024
+    2542                     India in Sri Lanka T20I Series 2024         T20I    2024
+    2372                      India in Zimbabwe T20I Series 2024         T20I    2024
+    2562                 Ireland v South Africa T20I Series 2024         T20I    2024
+    2398                 Netherlands Tri-Nation T20I Series 2024         T20I    2024
+    2605      Netherlands Tri-Nation T20I Series [Aug 2024] 2024         T20I    2024
+    2350                New Zealand in Pakistan T20I Series 2024         T20I    2024
+    2716               New Zealand in Sri Lanka T20I Series 2024         T20I    2024
+    2387                  Pakistan in Australia T20I Series 2024         T20I    2024
+    2354                    Pakistan in England T20I Series 2024         T20I    2024
+    2395                    Pakistan in Ireland T20I series 2024         T20I    2024
+    2060                Pakistan in New Zealand T20I series 2024         T20I    2024
+    2442               Pakistan in South Africa T20I Series 2024         T20I    2024
+    2722                   Pakistan in Zimbabwe T20I Series 2024         T20I    2024
+    2453            South Africa in West Indies T20I Series 2024         T20I    2024
+    2452 South Africa in West Indies T20I Series [May 2024] 2024         T20I    2024
+    2305                Sri Lanka in Bangladesh T20I Series 2024         T20I    2024
+    2061               West Indies in Australia T20I Series 2024         T20I    2024
+    2692               West Indies in Sri Lanka T20I Series 2024         T20I    2024
+    2371                 Zimbabwe in Bangladesh T20I Series 2024         T20I    2024
+    2229                  Zimbabwe in Sri Lanka T20I Series 2024         T20I    2024
+    2755            Sri Lanka in New Zealand T20I Series 2024/25         T20I 2024/25
+    3254                Afghanistan in Zimbabwe T20I Series 2025         T20I    2025
+    3228               Afghanistan v Bangladesh T20I Series 2025         T20I    2025
+    3133                                           Asia Cup 2025         T20I    2025
+    3197               Australia in New Zealand T20I Series 2025         T20I    2025
+    2874               Australia in West Indies T20I Series 2025         T20I    2025
+    2973                 Bangladesh in Pakistan T20I Series 2025         T20I    2025
+    3020                Bangladesh in Sri Lanka T20I Series 2025         T20I    2025
+    2975     Bangladesh in United Arab Emirates T20I Series 2025         T20I    2025
+    2513                       England in India T20I Series 2025         T20I    2025
+    3174                     England in Ireland T20I series 2025         T20I    2025
+    3226                 England in New Zealand T20I Series 2025         T20I    2025
+    2915                     India in Australia T20I Series 2025         T20I    2025
+    2940                    India in Bangladesh T20I Series 2025         T20I    2025
+    3251                  Ireland in Bangladesh T20I Series 2025         T20I    2025
+    2801                    Ireland in Zimbabwe T20I Series 2025         T20I    2025
+    3190                    Nepal v West Indies T20I Series 2025         T20I    2025
+    3163              Netherlands in Bangladesh T20I Series 2025         T20I    2025
+    3288                           Pakistan T20I Tri-Series 2025         T20I    2025
+    3074                 Pakistan in Bangladesh T20I Series 2025         T20I    2025
+    2793                Pakistan in New Zealand T20I Series 2025         T20I    2025
+    2875                Pakistan in West Indies T20I Series 2025         T20I    2025
+    2912              South Africa in Australia T20I Series 2025         T20I    2025
+    2628                South Africa in England T20I Series 2025         T20I    2025
+    2921                  South Africa in India T20I Series 2025         T20I    2025
+    3223               South Africa in Pakistan T20I Series 2025         T20I    2025
+    3162                  Sri Lanka in Zimbabwe T20I Series 2025         T20I    2025
+    3159               United Arab Emirates T20I Tri-Series 2025         T20I    2025
+    3241              West Indies in Bangladesh T20I Series 2025         T20I    2025
+    2626                 West Indies in England T20I Series 2025         T20I    2025
+    2873                 West Indies in Ireland T20I Series 2025         T20I    2025
+    3282             West Indies in New Zealand T20I Series 2025         T20I    2025
+    3405                Afghanistan v Sri Lanka T20I Series 2026         T20I    2026
+    3331              Afghanistan v West Indies T20I Series 2026         T20I    2026
+    3787                 Afghanistan v Zimbabwe T20I Series 2026         T20I    2026
+    3713          Afghanistan vs India in India T20I Series 2026         T20I    2026
+    3482                Australia in Bangladesh T20I Series 2026         T20I    2026
+    3358                  Australia in Pakistan T20I Series 2026         T20I    2026
+    3568                 Bangladesh in Zimbabwe T20I Series 2026         T20I    2026
+    3334                   England in Sri Lanka T20I Series 2026         T20I    2026
+    3126                       India in England T20I Series 2026         T20I    2026
+    3446                       India in Ireland T20I Series 2026         T20I    2026
+    3739                          India in Japan T20I Match 2026         T20I    2026
+    3690                   India in New Zealand T20I Series 2026         T20I    2026
+    3465                      India in Zimbabwe T20I Series 2026         T20I    2026
+    3313        Ireland in United Arab Emirates T20I Series 2026         T20I    2026
+    3433              New Zealand in Bangladesh T20I Series 2026         T20I    2026
+    3329                   New Zealand in India T20I Series 2026         T20I    2026
+    3317                  Pakistan in Sri Lanka T20I Series 2026         T20I    2026
+    3395            South Africa in New Zealand T20I Series 2026         T20I    2026
+    3128                   Sri Lanka in England T20I Series 2026         T20I    2026
+    3765                  Sri Lanka in Pakistan T20I Series 2026         T20I    2026
+    3464               Sri Lanka in West Indies T20I Series 2026         T20I    2026
+    3473          United Arab Emirates in Nepal T20I Series 2026         T20I    2026
+    3450                   West Indies in India T20I Series 2026         T20I    2026
+    2906            West Indies in South Africa T20I Series 2026         T20I    2026
+
+======================================================================
+INVESTIGATION: DELIVERY NUMBERING
+======================================================================
+
+Over ball number distribution:
+over_ball_num
+1     32350
+2     32257
+3     32169
+4     32066
+5     31937
+6     31791
+7      6710
+8      1364
+9       279
+10       57
+11       15
+12        2
+13        2
+
+Innings ball number maximum by innings:
+innings
+1    135
+2    136
+3      6
+4      4

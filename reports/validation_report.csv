@@ -1,0 +1,7 @@
+dataset,empty_rows,duplicate_rows,missing_values,duplicate_columns
+ball_by_ball_cleaned.csv,0,0,766466,0
+competitions_cleaned.csv,0,0,0,0
+competition_team_player_mapping_cleaned.csv,0,0,0,0
+matches_cleaned.csv,0,0,2736,0
+playing_eleven_cleaned.csv,0,0,26012,0
+teams_cleaned.csv,0,0,0,0

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Player Rankings | SupeRR Selector</title>
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/data.js"></script>
+<script src="assets/app.js" defer></script>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head><body>
+<header class="navbar">
+<a class="logo" href="index.html">SUPERR <span>SELECTOR</span></a>
+<nav class="navlinks">
+<a href="index.html" data-nav="home">HOME</a>
+<a href="analyst.html" data-nav="analyst">ANALYST</a>
+<a href="head-to-head.html" data-nav="head-to-head">HEAD-TO-HEAD</a>
+<a href="rankings.html" data-nav="rankings">RANKINGS</a>
+<a href="methodology.html" data-nav="methodology">METHODOLOGY</a>
+</nav><div class="live">● SYSTEM ACTIVE</div>
+</header>
+<main class="wrap">
+<div class="kicker">The leaderboard / 003</div>
+<h1>THE <em>RANKINGS.</em></h1>
+<p class="lead">Explore every qualified player in the current dataset.
+Sort by pressure score and open a profile for a closer look.</p>
+<div class="section">
+ <div class="controls"><button class="btn" id="showBatters">BATTERS</button>
+ <button class="btn secondary" id="showBowlers">BOWLERS</button>
+ <input class="search" id="rankSearch" placeholder="Search players..." style="max-width:340px"></div>
+ <div class="panel"><div class="tablebox"><table><thead id="rankHead"></thead>
+ <tbody id="rankBody"></tbody></table></div><p class="small-label" id="rankCount"></p></div>
+</div>
+</main>
+<footer class="footer"><span>SUPERR SELECTOR / CRICKET INTELLIGENCE</span>
+<span>DATA-DRIVEN PLAYER PERFORMANCE</span></footer>
+<script>document.querySelectorAll('[data-nav]').forEach(a=>{
+if(a.dataset.nav==='rankings')a.classList.add('active')});</script>
+</body></html>

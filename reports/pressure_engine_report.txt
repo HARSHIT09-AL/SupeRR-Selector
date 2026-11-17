@@ -1,0 +1,44 @@
+
+SUPERR SELECTOR - PRESSURE ENGINE REPORT
+========================================
+
+Project scope:
+IPL and T20I competitions from 2022 onward.
+
+Super Overs:
+Excluded from standard pressure analysis.
+
+Pressure state:
+Measured BEFORE each delivery.
+
+Run calculation:
+runs + extras1_runs + extras_2_runs.
+
+Legal-ball assumptions:
+Wide, Overstep, other and Penalty are excluded.
+Normal deliveries, byes and legbyes are counted.
+
+Uncertain extras:
+other and Penalty are flagged for review.
+
+Pressure rules - second innings:
+1. Required run rate >= 9.
+2. Final 18 balls with required rate >= 7.
+3. Six or more wickets down with 36 or fewer balls remaining.
+
+Pressure rules - first innings:
+1. Four or more wickets down after 70% of available legal balls.
+2. At least 85% of available legal balls completed.
+
+Total selected matches: 853
+Matches with ball-by-ball data: 837
+Total analyzed deliveries: 193988
+Total pressure deliveries: 80395
+Total innings analyzed: 1652
+Uncertain extras deliveries: 260
+
+NOTE:
+Revised overs are treated as legal-ball limits because the source
+values are expressed as ball counts (for example, 114 = 19 overs).
+The conservative treatment of 'other' and 'Penalty' must be reviewed
+before final publication of player rankings.

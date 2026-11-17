@@ -1,0 +1,104 @@
+========================================================================
+SUPERR SELECTOR - RESULT RELIABILITY CHECK
+========================================================================
+Purpose: evaluate sample support, score distribution and ranking stability.
+This is a diagnostic of the current ratings, not a prediction test.
+
+------------------------------------------------------------------------
+BATTERS
+------------------------------------------------------------------------
+Players in rating file: 398
+Duplicate player names: 1
+Missing scores: 0
+Missing sample counts: 0
+Minimum sample: 30
+Median sample: 107.0
+Maximum sample: 950
+Average score: 97.34
+Median score: 97.63
+Score standard deviation: 15.98
+Lowest score: 50.98
+Highest score: 163.97
+Players scoring above 100: 173
+Players scoring exactly 100: 0
+Average sample reliability factor: 0.761
+
+QUALIFICATION THRESHOLD SENSITIVITY
+Threshold | Eligible | Top-10 overlap vs 30 | Spearman rank correlation
+       30 |      398 |                   10 | 1.000
+       40 |      347 |                   10 | 1.000
+       50 |      308 |                    9 | 1.000
+       75 |      252 |                    9 | 1.000
+      100 |      209 |                    7 | 0.999
+
+TOP 10 PLAYERS AT ORIGINAL 30-SAMPLE THRESHOLD
+ 1. Vaibhav Sooryavanshi | Score: 163.97 | Sample: 175 | Reliability factor: 0.854
+ 2. Priyansh Arya | Score: 144.04 | Sample: 127 | Reliability factor: 0.809
+ 3. Jake McGurk | Score: 142.38 | Sample: 40 | Reliability factor: 0.571
+ 4. Finn Allen | Score: 134.21 | Sample: 93 | Reliability factor: 0.756
+ 5. Phil Salt | Score: 132.38 | Sample: 338 | Reliability factor: 0.918
+ 6. Ryan Rickelton | Score: 130.41 | Sample: 295 | Reliability factor: 0.908
+ 7. Paul Stirling | Score: 130.35 | Sample: 82 | Reliability factor: 0.732
+ 8. Travis Head | Score: 130.18 | Sample: 183 | Reliability factor: 0.859
+ 9. Abhishek Sharma | Score: 129.88 | Sample: 537 | Reliability factor: 0.947
+10. Yashasvi Jaiswal | Score: 129.68 | Sample: 503 | Reliability factor: 0.944
+
+------------------------------------------------------------------------
+BOWLERS
+------------------------------------------------------------------------
+Players in rating file: 322
+Duplicate player names: 0
+Missing scores: 0
+Missing sample counts: 0
+Minimum sample: 30
+Median sample: 131.0
+Maximum sample: 1815
+Average score: 104.80
+Median score: 104.58
+Score standard deviation: 11.30
+Lowest score: 69.16
+Highest score: 137.65
+Players scoring above 100: 221
+Players scoring exactly 100: 0
+Average sample reliability factor: 0.667
+
+QUALIFICATION THRESHOLD SENSITIVITY
+Threshold | Eligible | Top-10 overlap vs 30 | Spearman rank correlation
+       30 |      322 |                   10 | 1.000
+       40 |      283 |                    8 | 1.000
+       50 |      264 |                    8 | 1.000
+       75 |      222 |                    7 | 1.000
+      100 |      194 |                    6 | 1.000
+
+TOP 10 PLAYERS AT ORIGINAL 30-SAMPLE THRESHOLD
+ 1. Mohammad Nawaz | Score: 137.65 | Sample: 316 | Reliability factor: 0.840
+ 2. Usman Tariq | Score: 136.95 | Sample: 52 | Reliability factor: 0.464
+ 3. Mark Wood | Score: 136.05 | Sample: 130 | Reliability factor: 0.684
+ 4. Matthew Humphreys | Score: 134.13 | Sample: 128 | Reliability factor: 0.681
+ 5. Kushal Bhurtel | Score: 131.05 | Sample: 37 | Reliability factor: 0.381
+ 6. Abrar Ahmed | Score: 130.37 | Sample: 332 | Reliability factor: 0.847
+ 7. George Linde | Score: 130.04 | Sample: 90 | Reliability factor: 0.600
+ 8. Jacob Bethell | Score: 128.59 | Sample: 39 | Reliability factor: 0.394
+ 9. Jamie Overton | Score: 127.01 | Sample: 221 | Reliability factor: 0.786
+10. Tabraiz Shamsi | Score: 126.08 | Sample: 114 | Reliability factor: 0.655
+
+========================================================================
+INTERPRETATION GUIDE
+========================================================================
+1. Eligible players should decrease as the minimum sample rises.
+2. Top-10 overlap measures how many original leaders remain in the top 10.
+3. Spearman correlation measures ranking consistency among shared players.
+4. A higher sample reliability factor means a larger sample contribution.
+5. A score above 100 means performance exceeded its comparison baseline
+   after the model's reliability adjustment.
+
+IMPORTANT LIMITATION:
+This check does not establish future predictive accuracy, causal impact,
+or statistical confidence intervals. Those require additional validation.
+
+Generated files:
+reports/reliability_check_report.txt
+data/processed/batters_reliability_check.csv
+data/processed/bowlers_reliability_check.csv
+data/processed/batters_ranking_stability.csv
+data/processed/bowlers_ranking_stability.csv
