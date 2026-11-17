@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | SupeRR Selector</title>
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/data.js"></script>
+<script src="assets/app.js" defer></script>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head><body>
+<header class="navbar">
+<a class="logo" href="index.html">SUPERR <span>SELECTOR</span></a>
+<nav class="navlinks">
+<a href="index.html" data-nav="home">HOME</a>
+<a href="analyst.html" data-nav="analyst">ANALYST</a>
+<a href="head-to-head.html" data-nav="head-to-head">HEAD-TO-HEAD</a>
+<a href="rankings.html" data-nav="rankings">RANKINGS</a>
+<a href="methodology.html" data-nav="methodology">METHODOLOGY</a>
+</nav><div class="live">● SYSTEM ACTIVE</div>
+</header>
+<main class="wrap">
+<div class="hero">
+ <div><div class="kicker">Cricket performance intelligence / 001</div>
+ <h1>WHEN THE GAME<br>GETS TIGHT.<br><em>WHO DELIVERS?</em></h1>
+ <p class="lead">A new lens on cricket performance. SupeRR Selector
+ identifies players who deliver under pressure through ball-by-ball
+ analysis, contextual benchmarks and reliability-adjusted ratings.</p>
+ <div class="actions">
+  <a class="btn" href="analyst.html">ENTER ANALYST WORKSPACE ↗</a>
+  <a class="btn secondary" href="rankings.html">EXPLORE RANKINGS</a>
+ </div></div>
+ <div class="feature"><div class="small-label">TOP BATTER / CURRENT DATASET</div>
+ <div class="name">Vaibhav Sooryavanshi</div>
+ <div class="number">163.97</div>
+ <div class="small-label">PRESSURE PERFORMANCE SCORE</div>
+ <p class="lead">The highest-rated batter in the current qualified dataset.</p>
+ </div>
+</div>
+<div class="grid4">
+ <div class="metric"><div class="small-label">QUALIFIED BATTERS</div><strong>398</strong></div>
+ <div class="metric"><div class="small-label">QUALIFIED BOWLERS</div><strong class="teal">322</strong></div>
+ <div class="metric"><div class="small-label">TOP BATTING SCORE</div><strong class="accent">164.0</strong></div>
+ <div class="metric"><div class="small-label">TOP BOWLING SCORE</div><strong class="teal">137.6</strong></div>
+</div>
+<section class="section">
+ <div class="section-head"><h2>THE LEADING PERFORMERS</h2>
+ <p>TOP 5 / PRESSURE SCORE</p></div>
+ <div class="cards">
+  <div class="panel"><div class="panel-title">BATTING / UNDER PRESSURE</div>
+   <div id="homeBatting" style="height:310px"></div></div>
+  <div class="panel"><div class="panel-title">BOWLING / UNDER PRESSURE</div>
+   <div id="homeBowling" style="height:310px"></div></div>
+ </div>
+</section>
+<section class="section">
+ <div class="section-head"><h2>BUILT FOR BETTER DECISIONS</h2><p>EXPLORE THE PLATFORM</p></div>
+ <div class="cards">
+  <a class="panel" href="analyst.html"><div class="kicker">01 / ANALYSE</div><h2>Analyst workspace ↗</h2><p class="lead">Search players, explore their pressure numbers and compare two players side by side.</p></a>
+  <a class="panel" href="rankings.html"><div class="kicker">02 / DISCOVER</div><h2>Complete rankings ↗</h2><p class="lead">Explore qualified batters and bowlers, sort the leaderboard and open individual profiles.</p></a>
+ </div>
+</section>
+</main>
+<footer class="footer"><span>SUPERR SELECTOR / CRICKET INTELLIGENCE</span>
+<span>DATA-DRIVEN PLAYER PERFORMANCE</span></footer>
+<script>document.querySelectorAll('[data-nav]').forEach(a=>{
+if(a.dataset.nav==='home')a.classList.add('active')});</script>
+</body></html>

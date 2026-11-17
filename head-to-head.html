@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Head-to-Head | SupeRR Selector</title>
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/data.js"></script>
+<script src="assets/app.js" defer></script>
+</head>
+<body>
+<header class="navbar">
+<a class="logo" href="index.html">SUPERR <span>SELECTOR</span></a>
+<nav class="navlinks">
+<a href="index.html" data-nav="home">HOME</a>
+<a href="analyst.html" data-nav="analyst">ANALYST</a>
+<a href="head-to-head.html" data-nav="head-to-head">HEAD-TO-HEAD</a>
+<a href="rankings.html" data-nav="rankings">RANKINGS</a>
+<a href="methodology.html" data-nav="methodology">METHODOLOGY</a>
+</nav>
+<div class="live">? SYSTEM ACTIVE</div>
+</header>
+<main class="wrap">
+<div class="kicker">Player intelligence / Comparison suite 005</div>
+<h1>THE <em>HEAD-TO-HEAD.</em></h1>
+<p class="lead">Put two players side by side. Compare their pressure scores and performance statistics using the same rating framework.</p>
+
+<section class="section">
+<div class="section-head"><h2>BATTER VS BATTER</h2><p>PRESSURE BATTING COMPARISON</p></div>
+<div class="panel">
+<div class="controls">
+<select id="bA" aria-label="First batter"></select>
+<select id="bB" aria-label="Second batter"></select>
+</div>
+<div class="compare" id="bCompare"></div>
+</div>
+</section>
+
+<section class="section">
+<div class="section-head"><h2>BOWLER VS BOWLER</h2><p>PRESSURE BOWLING COMPARISON</p></div>
+<div class="panel">
+<div class="controls">
+<select id="wA" aria-label="First bowler"></select>
+<select id="wB" aria-label="Second bowler"></select>
+</div>
+<div class="compare" id="wCompare"></div>
+</div>
+</section>
+<p class="small-label">EDGE IS SHOWN ONLY FOR METRICS WHERE A DIRECT HIGHER-OR-LOWER COMPARISON IS MEANINGFUL. SAMPLE VOLUME IS DISPLAYED WITHOUT DECLARING A WINNER.</p>
+</main>
+<footer class="footer"><span>SUPERR SELECTOR / CRICKET INTELLIGENCE</span>
+<span>DATA-DRIVEN PLAYER PERFORMANCE</span></footer>
+<script>
+document.querySelectorAll('[data-nav]').forEach(a=>{
+if(a.dataset.nav==='head-to-head')a.classList.add('active')});
+</script>
+</body>
+</html>
